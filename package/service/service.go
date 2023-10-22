@@ -1,6 +1,6 @@
 package service
 
-import "ToDoList/package/repository"
+import "ToDO/package/repository"
 
 type Authorization interface {
 }

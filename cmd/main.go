@@ -1,10 +1,10 @@
 package main
 
 import (
-	"ToDoList"
-	"ToDoList/package/handler"
-	"ToDoList/package/repository"
-	"ToDoList/package/service"
+	"ToDO"
+	"ToDO/package/handler"
+	"ToDO/package/repository"
+	"ToDO/package/service"
 	"github.com/spf13/viper"
 	"log"
 )
