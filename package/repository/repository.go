@@ -10,6 +10,8 @@ type Authorization interface {
 	GetUser(username, password string) (ToDoList.User, error)
 }
 type TogoList interface {
+	Create(userId int, list ToDoList.TodoList) (int, error)
+	GetAll(userId int) ([]ToDoList.TodoList, error)
 }
 type TodoItem interface {
 }
